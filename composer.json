@@ -1,0 +1,34 @@
+{
+  "name": "matejicekvojtech/sorted-linked-list",
+  "description": "Sorted linked list library. Test task for ShipMonk",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Vojtěch Matějíček",
+      "email": "matejicek.vojtech@gmail.com"
+    }
+  ],
+  "scripts": {
+    "phpunit": "vendor/bin/phpunit ./tests"
+  },
+  "autoload": {
+    "psr-4": {
+      "VM\\LinkedList\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\VM\\LinkedList\\": "tests/"
+    }
+  },
+  "readme": "README.md",
+  "require": {
+    "php": "^8.4",
+    "webmozart/assert": "^1.11"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^12.3"
+  }
+}
